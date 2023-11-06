@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FFF;
+}
+
+.top {
+    width: 1319px;
+    height: 928px;
+}
+
+.logo {
+    width: 35px;
+    height: 40px;
+}
+
+.logo_header_1 {
+    color: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header {
+    width: 1289px;
+    height: 114px;
+}
+
+.menu_header {
+    width: 556px;
+    height: 40px;
+}
+
+.link_menu_1 {
+    color: #F25822;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.link_menu {
+    color: #000;
+    font-family: Gilroy-Medium;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_content {
+    width: 1274px;
+    height: 536px;
+}
+
+.top_info {
+    width: 589px;
+    height: 494px;
+}
+
+.text_h2 {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text_top_main {
+    color: #888;
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_btns {
+    width: 374px;
+    height: 94px;
+}
+
+.top_btn_1 {
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+
+}
+
+.top_btn_2 {
+    color: #AAA;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.top_img {
+    width: 544.814px;
+    height: 374.843px;
+
+}
+
+.top_logo {
+    width: 1920px;
+    height: 243px;
+
+}
