@@ -1,44 +1,85 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
+    width: 1920px;
+    height: 700px;
+    flex-shrink: 0;
     background: #FFF;
 }
 
 .top {
-    width: 1319px;
-    height: 928px;
+    width: 1320px;
+    height: 930px;
+}
+
+.header {
+    width: 1290px;
+    height: 114px;
 }
 
 .logo {
     width: 35px;
     height: 40px;
+    flex-shrink: 0;
 }
 
 .logo_header_1 {
-    color: #F25822;
-    font-family: Gilroy-Bold;
+    color: #000;
+    display: flex;
+    font-family: 'Gilroy-Bold';
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.header {
-    width: 1289px;
-    height: 114px;
+.logo_header_2 {
+    color: #F25822;
+    display: flex;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+
 .menu_header {
-    width: 556px;
-    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header_logo_img {
+    display: flex;
+    margin-left: 45px;
 }
 
 .link_menu_1 {
     color: #F25822;
-    font-family: Gilroy-Medium;
+    font-family: 'Gilroy-Medium';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -47,7 +88,7 @@ body {
 
 .link_menu {
     color: #000;
-    font-family: Gilroy-Medium;
+    font-family: 'Gilroy-Medium';
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -55,8 +96,12 @@ body {
 }
 
 .top_content {
-    width: 1274px;
-    height: 536px;
+    /* width: 1274px;
+    height: 536px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
 
 .top_info {
@@ -66,54 +111,70 @@ body {
 
 .text_h2 {
     color: #000;
-    font-family: Gilroy-Bold;
+    font-family: 'Gilroy-Bold';
     font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    gap: 10px;
 }
 
 .text_top_main {
     color: #888;
-    font-family: Gilroy-Medium;
+    font-family: 'Gilroy-Medium';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 30px;
+    margin-top: 5px;
 }
 
 .top_btns {
-    width: 374px;
-    height: 94px;
+    /* width: 374px;
+    height: 94px; */
+    display: flex;
+    gap: 50px;
 }
 
 .top_btn_1 {
-    width: 140px;
-    height: 50px;
-    flex-shrink: 0;
-    border-radius: 50px;
     background: #F25822;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
-
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .top_btn_2 {
     color: #AAA;
-    font-family: Gilroy-Bold;
-    font-size: 15px;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
 .top_img {
-    width: 544.814px;
-    height: 374.843px;
-
+    display: flex;
+    width: 545px;
+    height: 375px;
 }
 
 .top_logo {
-    width: 1920px;
+    /* width: 1920px;
     height: 243px;
-
+    flex-shrink: 0;
+    background: #FFF; */
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
 }
