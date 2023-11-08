@@ -36,6 +36,12 @@ body {
     height: 114px;
 }
 
+.header_logo_img {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
 .logo {
     width: 35px;
     height: 40px;
@@ -72,10 +78,6 @@ body {
 
 }
 
-.header_logo_img {
-    display: flex;
-    margin-left: 45px;
-}
 
 .link_menu_1 {
     color: #F25822;
